@@ -1,5 +1,5 @@
+
 User-agent: *
 Allow: /
 
-# After connecting your real domain, replace YOUR-DOMAIN-HERE below:
-Sitemap: https://YOUR-DOMAIN-HERE/sitemap.xml
+Sitemap: https://aadhvex-digital-solutions.pages.dev/sitemap.xml
