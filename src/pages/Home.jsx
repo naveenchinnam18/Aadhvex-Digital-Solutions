@@ -5,21 +5,21 @@ import { HOME_PROCESS } from '../data/site';
 
 export default function Home() {
   usePageMeta(
-    'Aadhvex Digital Solutions | Websites, Software & Digital Marketing',
-    'Aadhvex Digital Solutions creates professional websites, custom web and mobile applications, offline business software and digital marketing solutions.'
+    'Website Development, Software & Digital Marketing | Aadhvex',
+    'Aadhvex Digital Solutions builds business websites, web and mobile apps, offline desktop software and digital marketing services for businesses across India.'
   );
 
   return (
     <>
-      <section className="hero">
+      <section className="hero" aria-labelledby="home-heading">
         <div className="wrap hero-layout">
           <div>
             <div className="eyebrow">Aadhvex Digital Solutions</div>
-            <h1>Digital experiences built around your business.</h1>
+            <h1 id="home-heading">Websites, software and digital marketing built around your business.</h1>
             <p>
-              We help businesses make a confident start online and work smarter every day. From thoughtful websites
-              and custom software to practical digital marketing, we bring the right pieces together to support your
-              next stage of growth.
+              Aadhvex Digital Solutions helps businesses across India make a confident start online and work smarter
+              every day. From professional website development and custom software to practical digital marketing, we
+              bring the right pieces together to support your next stage of growth.
             </p>
             <div className="hero-actions">
               <Link className="btn" to="/contact">
@@ -66,7 +66,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="proof-band">
+      <section className="proof-band" aria-label="Why businesses work with us">
         <div className="wrap proof-grid">
           <div>
             <strong>Custom-built</strong>
@@ -87,13 +87,13 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section section-white">
+      <section className="section section-white" aria-labelledby="services-heading">
         <div className="wrap">
           <div className="section-head">
             <div>
               <div className="eyebrow">What we do</div>
-              <h2>
-                Everything digital,
+              <h2 id="services-heading">
+                Website, software and marketing services
                 <br />
                 with a clear purpose.
               </h2>
@@ -106,66 +106,67 @@ export default function Home() {
           <div className="cards">
             <article className="card">
               <div className="card-num">01 / WEB & APP DEVELOPMENT</div>
-              <h3>Websites & applications</h3>
+              <h3>Website & app development</h3>
               <p>
-                Professional business websites, e-commerce stores and custom web or mobile applications that make it
+                Professional business websites, e-commerce stores, web applications and mobile apps that make it
                 easier for customers to understand and use your services.
               </p>
               <Link className="card-link" to="/services">
-                Explore development ↗
+                Website & app development services ↗
               </Link>
             </article>
             <article className="card">
               <div className="card-num">02 / BUSINESS SOFTWARE</div>
-              <h3>Software for everyday work</h3>
+              <h3>Offline business software</h3>
               <p>
-                Custom desktop and offline-first systems for billing, inventory, records, reporting and workflows that
-                need dependable day-to-day operation.
+                Custom desktop and offline-first software for billing and inventory, milk collection, pharmacy,
+                hospital, school, payroll, loan and jewellery billing, on a single PC or a local office network.
               </p>
               <Link className="card-link" to="/offline-systems">
-                Explore software ↗
+                Offline business software ↗
               </Link>
             </article>
             <article className="card">
               <div className="card-num">03 / DIGITAL MARKETING</div>
-              <h3>Build your digital presence</h3>
+              <h3>Digital marketing services</h3>
               <p>
-                Search optimisation, social media, paid campaigns and content support to help your business become
-                easier to discover and engage with.
+                SEO, Google Ads, Meta Ads, social media handling, email marketing and bulk WhatsApp messaging to help
+                your business become easier to discover and engage with.
               </p>
               <Link className="card-link" to="/digital-marketing">
-                Explore marketing ↗
+                Digital marketing services ↗
               </Link>
             </article>
           </div>
         </div>
       </section>
 
-      <section className="section" id="why-aadhvex">
+      <section className="section" id="why-aadhvex" aria-labelledby="why-heading">
         <div className="wrap split">
           <div>
             <div className="eyebrow">A better way to get started</div>
-            <h2>Clear thinking. Careful work. Reliable delivery.</h2>
+            <h2 id="why-heading">Clear thinking. Careful work. Reliable delivery.</h2>
             <p>
               Every business has a different audience, workflow and goal. We begin by understanding yours, then
-              recommend a practical scope instead of adding features you do not need.
+              recommend a practical scope instead of adding features you do not need, whether that is a website, a
+              mobile app, offline software or a digital marketing plan.
             </p>
             <p>
               From the first discussion to launch, we keep communication straightforward and make sure you understand
               what is being built and why.
             </p>
             <Link className="btn" to="/about">
-              Get to know Aadhvex ↗
+              About Aadhvex Digital Solutions ↗
             </Link>
           </div>
           <FeatureList items={HOME_PROCESS} />
         </div>
       </section>
 
-      <section className="cta-strip">
+      <section className="cta-strip" aria-labelledby="cta-heading">
         <div className="wrap split">
           <div>
-            <h2>Have an idea you are ready to move forward with?</h2>
+            <h2 id="cta-heading">Have an idea you are ready to move forward with?</h2>
             <p>Tell us what you want to achieve. We will help you work out a sensible next step.</p>
           </div>
           <div>

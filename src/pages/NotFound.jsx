@@ -2,7 +2,9 @@ import { Link } from 'react-router-dom';
 import usePageMeta from '../hooks/usePageMeta';
 
 export default function NotFound() {
-  usePageMeta('Page not found | Aadhvex Digital Solutions', 'The page you are looking for could not be found.');
+  usePageMeta('Page not found | Aadhvex Digital Solutions', 'The page you are looking for could not be found.', {
+    noindex: true,
+  });
 
   return (
     <section className="page-hero">
