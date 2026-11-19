@@ -6,8 +6,8 @@ import { SERVICE_ROWS, SERVICE_PROCESS } from '../data/site';
 
 export default function Services() {
   usePageMeta(
-    'IT Services | Aadhvex Digital Solutions',
-    'Aadhvex Digital Solutions provides website design, web application development and mobile app development.'
+    'Website, Web App & Mobile App Development | Aadhvex',
+    'Aadhvex Digital Solutions develops responsive business websites, e-commerce stores, custom web applications and mobile apps for businesses across India.'
   );
 
   return (
@@ -15,7 +15,7 @@ export default function Services() {
       <PageHero
         crumb="IT Services"
         eyebrow="IT Services"
-        title="Websites and applications that move your business forward."
+        title="Website and app development that moves your business forward."
       >
         We design and develop digital experiences that help your business look professional, serve customers and work
         more efficiently.
@@ -55,6 +55,17 @@ export default function Services() {
             <Link className="btn" to="/contact">
               Tell us what you need ↗
             </Link>
+            <p>
+              Need software for daily operations or help reaching customers? See our{' '}
+              <Link className="inline-link" to="/offline-systems">
+                offline business software
+              </Link>{' '}
+              and{' '}
+              <Link className="inline-link" to="/digital-marketing">
+                digital marketing services
+              </Link>
+              .
+            </p>
           </div>
           <FeatureList items={SERVICE_PROCESS} />
         </div>

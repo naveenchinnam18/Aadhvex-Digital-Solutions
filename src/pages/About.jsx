@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import PageHero from '../components/PageHero';
 import usePageMeta from '../hooks/usePageMeta';
 
@@ -9,8 +10,8 @@ const HOW_WE_WORK = [
 
 export default function About() {
   usePageMeta(
-    'About Aadhvex Digital Solutions',
-    'Learn about Aadhvex Digital Solutions, providing IT services, offline software systems and digital marketing.'
+    'About Aadhvex Digital Solutions | Software & Marketing',
+    'Learn about Aadhvex Digital Solutions, a team building websites, mobile apps, offline desktop software and digital marketing solutions for businesses in India.'
   );
 
   return (
@@ -35,6 +36,21 @@ export default function About() {
               digital marketing.
             </p>
             <p>We believe good work begins by listening, setting clear expectations and building around the real requirement.</p>
+            <p>
+              Explore our{' '}
+              <Link className="inline-link" to="/services">
+                website and app development
+              </Link>
+              ,{' '}
+              <Link className="inline-link" to="/offline-systems">
+                offline business software
+              </Link>{' '}
+              and{' '}
+              <Link className="inline-link" to="/digital-marketing">
+                digital marketing
+              </Link>{' '}
+              services.
+            </p>
           </div>
           <div className="quote-panel">
             <div className="eyebrow">The name</div>

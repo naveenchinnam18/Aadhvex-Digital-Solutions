@@ -5,8 +5,8 @@ import { OFFLINE_SYSTEMS, OFFLINE_EXTRAS } from '../data/site';
 
 export default function OfflineSystems() {
   usePageMeta(
-    'Offline Systems & Desktop Software | Aadhvex Digital Solutions',
-    'Aadhvex Digital Solutions develops custom offline desktop software and local network systems for business operations.'
+    'Offline Desktop Software for Billing & Inventory | Aadhvex',
+    'Custom offline desktop software for billing, inventory, pharmacy, hospital, school, payroll, loan and milk collection, for one PC or a local network.'
   );
 
   return (
@@ -14,7 +14,7 @@ export default function OfflineSystems() {
       <PageHero
         crumb="Offline Systems"
         eyebrow="Offline Systems"
-        title="Custom desktop software for the way your business works."
+        title="Custom offline desktop software for the way your business works."
       >
         Reliable software for offices and businesses that need to manage daily work locally, even when internet
         access is limited or unavailable.
@@ -35,6 +35,11 @@ export default function OfflineSystems() {
             </p>
             <p>
               Depending on the requirement, software can run on a single computer or across a local office network.
+              Looking for a website or app instead? See our{' '}
+              <Link className="inline-link" to="/services">
+                website and app development services
+              </Link>
+              .
             </p>
             <Link className="btn" to="/contact">
               Discuss an offline system ↗

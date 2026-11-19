@@ -2,7 +2,7 @@ import PageHero from '../components/PageHero';
 import usePageMeta from '../hooks/usePageMeta';
 
 export default function Terms() {
-  usePageMeta('Terms of Use | Aadhvex Digital Solutions', 'Terms of use for the Aadhvex Digital Solutions website.');
+  usePageMeta('Terms of Use | Aadhvex Digital Solutions', 'Terms of use for the Aadhvex Digital Solutions website and its enquiry form.');
 
   return (
     <>

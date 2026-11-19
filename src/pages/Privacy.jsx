@@ -2,7 +2,7 @@ import PageHero from '../components/PageHero';
 import usePageMeta from '../hooks/usePageMeta';
 
 export default function Privacy() {
-  usePageMeta('Privacy Policy | Aadhvex Digital Solutions', 'Aadhvex Digital Solutions website privacy information.');
+  usePageMeta('Privacy Policy | Aadhvex Digital Solutions', 'How Aadhvex Digital Solutions handles information collected through its website and contact enquiries.');
 
   return (
     <>

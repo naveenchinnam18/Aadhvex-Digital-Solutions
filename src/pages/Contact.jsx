@@ -8,8 +8,8 @@ const WEB3FORMS_KEY = 'd56bfba1-d9d2-4146-9b27-face613f4d14';
 
 export default function Contact() {
   usePageMeta(
-    'Contact Aadhvex Digital Solutions',
-    'Contact Aadhvex Digital Solutions for websites, apps, offline software and digital marketing services.'
+    'Contact Aadhvex Digital Solutions | Start Your Project',
+    'Contact Aadhvex Digital Solutions by phone, WhatsApp or email to discuss your website, mobile app, offline software or digital marketing requirement.'
   );
 
   const [status, setStatus] = useState('idle'); // idle | sending | success | error
@@ -51,7 +51,7 @@ export default function Contact() {
 
   return (
     <>
-      <PageHero crumb="Contact" eyebrow="Contact" title="Let's talk about what your business needs.">
+      <PageHero crumb="Contact" eyebrow="Contact" title="Let's talk about your website, app or software project.">
         Tell us about your website, app, offline software or digital marketing requirement. We will be happy to
         discuss the next step.
       </PageHero>

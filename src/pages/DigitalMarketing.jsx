@@ -6,8 +6,8 @@ import { MARKETING_SERVICES, WHATSAPP_STEPS } from '../data/site';
 
 export default function DigitalMarketing() {
   usePageMeta(
-    'Digital Marketing | Aadhvex Digital Solutions',
-    'Aadhvex Digital Solutions offers social media handling, Meta Ads, Google Ads, SEO, email marketing, content writing and bulk WhatsApp messaging.'
+    'SEO, Google Ads & Social Media Marketing | Aadhvex',
+    'Digital marketing services in India: SEO, Google Ads, Meta Ads, social media handling, email marketing, content writing and bulk WhatsApp messaging.'
   );
 
   return (
@@ -15,7 +15,7 @@ export default function DigitalMarketing() {
       <PageHero
         crumb="Digital Marketing"
         eyebrow="Digital Marketing"
-        title="Build your presence. Reach the right people. Grow with purpose."
+        title="Digital marketing to build your presence, reach the right people and grow."
       >
         Practical digital marketing services to help your business become more visible, communicate consistently and
         generate enquiries.
@@ -32,7 +32,14 @@ export default function DigitalMarketing() {
                 to show up online.
               </h2>
             </div>
-            <p>Choose one service or bring them together into a consistent marketing plan.</p>
+            <p>
+              Choose one service or bring them together into a consistent marketing plan. Need a site to send visitors
+              to? See our{' '}
+              <Link className="inline-link" to="/services">
+                website development services
+              </Link>
+              .
+            </p>
           </div>
           <div className="cards">
             {MARKETING_SERVICES.map((item) => (
